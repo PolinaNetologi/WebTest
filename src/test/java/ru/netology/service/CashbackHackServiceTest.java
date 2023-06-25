@@ -12,6 +12,7 @@ public class CashbackHackServiceTest {
         int expected = 0;
         assertEquals(actual, expected);
     }
+
     @org.testng.annotation.Test
     public void testRemain() {
         CashbackHackService service = new CashbackHackService();
@@ -21,5 +22,6 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
 
 
+    }
 }
 
